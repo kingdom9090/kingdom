@@ -23,6 +23,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Build
-      run: |
+      run: kingdom9090-patch-1
         npm install
         gulp
