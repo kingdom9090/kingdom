@@ -2,9 +2,9 @@ name: NodeJS with Gulp
 
 on:
   push:
-    branches: [ main ]
+    branches: kingdome9090
   pull_request:
-    branches: [ main ]
+    branches: kingdom9090/hollyman90/$momoneygoat 
 
 jobs:
   build:
@@ -22,7 +22,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Build
-      run: |
+    - name: lamonte lewis
+      run: $momoneygoat 
         npm install
         gulp
